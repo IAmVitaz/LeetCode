@@ -2,6 +2,7 @@ from typing import List
 
 # https://leetcode.com/problems/search-a-2d-matrix/
 
+# Binary search log(n+m) solution:
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         row = len(matrix) #3
